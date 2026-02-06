@@ -1,0 +1,26 @@
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+}
+
+p span {
+    font-size: 10px;
+    vertical-align: bottom;
+ }
+
+ .persion {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+ }
+
+ a {
+    color: orange;
+    text-decoration-line: underline;
+    text-decoration-color: black;
+    text-decoration-style: wavy;
+    text-decoration-thickness: 2px;
+    text-decoration-skip: edge;
+ }
