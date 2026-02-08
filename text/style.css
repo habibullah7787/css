@@ -2,7 +2,7 @@ h1 {
     text-align: center;
 }
 
-p {
+/* p {
     text-align: justify;
 }
 
@@ -14,13 +14,28 @@ p span {
  .persion {
     direction: rtl;
     unicode-bidi: bidi-override;
- }
+ } */
 
  a {
     color: orange;
     text-decoration-line: underline;
     text-decoration-color: black;
-    text-decoration-style: wavy;
-    text-decoration-thickness: 2px;
+    text-decoration-style: solid;
+    text-decoration-thickness: 7px;
     text-decoration-skip: edge;
+    text-transform: uppercase;
+ }
+
+ p {
+    /* text-indent: 50px;
+    letter-spacing: 1px; */
+    /* line-height: 3em; */
+    /* word-spacing: 35px; */
+    /* white-space: nowrap; */
+    /* white-space: pre; */
+ }
+
+ h1 {
+    color: white;
+    text-shadow: 2px 2px 4px #000, -2px -2px 4px orange;
  }
